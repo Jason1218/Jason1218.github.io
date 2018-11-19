@@ -1,21 +1,29 @@
 body {
     font-family: TimesNewRoman;
     padding: 20px;
-    background: lightgreen;
+    background: gray;
 }
 
 /* Header/Blog Title */
 .header {
+    border-radius: 25px;
     padding: 30px;
     font-size: 40px;
     text-align: center;
     background: lightpink;
     font-family: Papyrus;
 }
+h3{
+    font-size: 30px;
+}
 
+h5{
+    font-size: 20px;
+}
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
+    border-radius: 25px;
     float: left;
     width: 75%;
 }
@@ -24,7 +32,7 @@ body {
 .rightcolumn {
     float: left;
     width: 25%;
-    padding-left: 20px;
+    padding-left: 1px;
 }
 
 /* Fake image */
@@ -36,7 +44,14 @@ body {
 
 /* Add a card effect for articles */
 .card {
+    border-radius: 25px;
      background-color: lightblue;
+     padding: 20px;
+     margin-top: 20px;
+}
+.card2 {
+    border-radius: 25px;
+     background-color: lightgreen;
      padding: 20px;
      margin-top: 20px;
 }
