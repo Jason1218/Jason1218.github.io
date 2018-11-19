@@ -9,7 +9,9 @@
 	body, input, select, textarea {
 		font-size: 12pt;
 	}
-
+	h13{
+		font-weight: bold;
+	}
 /* Header */
 
 	.dropotron.level-0 {

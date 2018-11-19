@@ -62,11 +62,13 @@
 
 	p {
 		margin: 0 0 2em 0;
+		font-size: 20px;
+		font-weight: 450;
 	}
 
-	h1, h2, h3, h4, h5, h6, h9 {
+	h1, h2, h3, h4, h5, h6 {
 		color: #545454;
-		font-weight: 700;
+		font-weight: bold;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 		letter-spacing: -0.01em;
@@ -101,9 +103,7 @@
 		font-size: 0.7em;
 		line-height: 1.5em;
 	}
-	h9{
-		text-align: left;
-	}
+	
 	sub {
 		font-size: 0.8em;
 		position: relative;
