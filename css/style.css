@@ -1269,6 +1269,8 @@
 
 		#banner .inner {
 			position: relative;
+			color: white;
+			font-weight: 60;
 			z-index: 2;
 		}
 
@@ -1286,7 +1288,7 @@
 			}
 
 		#banner h2 {
-			font-size: 3.25em;
+			font-size: 5.25em;
 			line-height: 1.25em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
@@ -1295,6 +1297,7 @@
 		#banner p {
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
+			font-weight: bold;
 		}
 
 	body.is-loading #banner:after {
