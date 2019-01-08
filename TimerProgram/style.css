@@ -6,7 +6,7 @@ h1{
 body{
 	background-color: lightblue;
 	font-size: 32px;
-	text-align: center;
+	text-align: left;
 	
 }
 
@@ -21,4 +21,10 @@ button:hover{
 
 div{
 	font-size: 30px;
+}
+
+form{
+	box-sizing: border-box;
+	border: red;
+	margin: 20px 0;
 }
